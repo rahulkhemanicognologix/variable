@@ -1,5 +1,5 @@
 package varialble.learning;
-
+//instance variable code//
 public class StaticVariable {
      int number = 100;
      char name = 'R';
