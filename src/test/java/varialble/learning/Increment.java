@@ -11,7 +11,7 @@ public class Increment {
         int number3= 20;
         System.out.println(--number3);
 
-        int number4=40;
+        int number4=10;
         System.out.println(number4--);
 
         int a = 10;
