@@ -10,9 +10,12 @@ public class RelationalOperator {
         String name = "Rahul";
         String name2= "Rahul";
 
-        String name3 = new String ("Rahul");
+        String name3 = new String ("Rahue");
         String name4 = new String("Rahul");
         String name5="Rahul";
+
+        System.out.println(name.equals(name2));
+        System.out.println(name.equals(name3));
 
 
         System.out.println(a>b);
