@@ -12,7 +12,7 @@ public class RelationalOperator {
         String name = "Rahul";
         String name2= "Rahul";
 
-        String name3 = new String ("Rahue");
+        String name3 = new String ("Rahul");
         String name4 = new String("Rahul");
         String name5="Rahul";
 
@@ -32,7 +32,8 @@ public class RelationalOperator {
         System.out.println(name==name3);
         System.out.println(name3==name4);
         System.out.println(name4==name5);
-
+        System.out.println(name4);
+        System.out.println(name5);
 
     }
 }
