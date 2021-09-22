@@ -24,6 +24,7 @@ public class RelationalOperator {
         System.out.println(d>=c);
         System.out.println(a!=e);
         System.out.println(c>=b);
+        System.out.println(a!=b);
 
         System.out.println(name==name2);
         System.out.println(name==name3);
