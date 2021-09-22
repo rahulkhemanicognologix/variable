@@ -20,8 +20,8 @@ public class SwitchString {
                 System.out.println("Begin the game to reach any level");
         }
         {
-            System.out.println("Your level is" );
-            System.out.println(level);
+            System.out.println("Your level is:" +level );
+
 
         }
     }
