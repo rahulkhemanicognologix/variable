@@ -5,10 +5,16 @@ public class ForLoop {
         for (int a = 1; a <= 10; a++) {
             System.out.println(a);
         }
-        {
-            for (int name = 5; name < 10; name++) {
-                System.out.println("Rahul");
+        System.out.println(" ");
+        for (int b=1; b<=7;b++){
+            for (int j=1;j<=b;j++) {
+                System.out.print(" R ");
+            }
+            System.out.println();
             }
         }
+
     }
-}
+
+
+
