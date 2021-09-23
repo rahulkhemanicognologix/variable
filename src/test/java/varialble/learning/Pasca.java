@@ -7,7 +7,7 @@ class Pasca
     {
         int num=0;
         int rev =0;
-        System.out.println("Input your number and press enter: ");
+        System.out.println("Input your number and pre enter: ");
 
         Scanner in = new Scanner(System.in);
 
