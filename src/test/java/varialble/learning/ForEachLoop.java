@@ -26,6 +26,13 @@ public class ForEachLoop {
         for(int r:number4){
             System.out.println(r);
         }
+        System.out.println();
+
+        int number5[]={2,3,4,5,6,7,5,3,4,5};
+        for (int c:number5){
+            System.out.println(c);
+
+        }
 
     }
 }

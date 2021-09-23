@@ -17,7 +17,8 @@ public class Practiceifelse {
         int  b = 30;
         if (a> b ) {
             System.out.println("A is bigger number ");
-        } else if(b>a) {
+        }
+        else if(b>a) {
             System.out.println("B is bigger number");
         }
         else {
