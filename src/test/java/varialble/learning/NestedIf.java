@@ -2,7 +2,7 @@ package varialble.learning;
 
 public class NestedIf {
     public static void main(String[] args) {
-        int age = 17;
+        int age = 20;
         int weight = 57;
         if (age > 19) {
             if (weight >= 58) {
