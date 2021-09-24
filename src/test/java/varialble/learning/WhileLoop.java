@@ -17,14 +17,11 @@ public class WhileLoop {
         }
         System.out.println();
 
-        int x=1;
-        int add=0;
-        while(x<=5){
-            add=add+x;
-            x++;
-            System.out.println();
 
-        }
-        System.out.println(add);
+
+       }
+
+
+
     }
-}
+

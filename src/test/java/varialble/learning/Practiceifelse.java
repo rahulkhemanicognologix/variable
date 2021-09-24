@@ -25,9 +25,22 @@ public class Practiceifelse {
             System.out.println("Both are equal");
         }
 
+        int age=16;
+        int weight = 50;
+        if(age>18) {
+            if (weight > 48) {
+                System.out.println("You are eligible");
+            } else {
+                System.out.println("You are ineligable");
+            }
+        }else
+            System.out.println("You are under age");
+            }
 
-    }
-}
+        }
+
+
+
 
 
 
