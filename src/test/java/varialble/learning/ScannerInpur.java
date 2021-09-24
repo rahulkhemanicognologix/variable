@@ -14,6 +14,11 @@ public class ScannerInpur {
         System.out.println("Enter your number");
         number =a.nextInt();
         System.out.println(number);
+
+        float number2 = 1;
+        System.out.println("Enter Number");
+        number2 = a.nextFloat();
+        System.out.println(number2);
     }
 
     }
