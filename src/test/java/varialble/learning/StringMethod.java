@@ -16,6 +16,15 @@ public class StringMethod {
         System.out.println(name2.substring(0,4));
         System.out.println(fullname.length());
 
+        String sentence = " World is a nice place to live";
+        String replaces = sentence.replace("nice","good");
+        System.out.println(replaces);
+
+        String p = "rahul";
+        String w = "RAHUL";
+
+        boolean check = (p.equalsIgnoreCase(w));
+        System.out.println(check);
 
     }
 }
