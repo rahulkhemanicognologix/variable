@@ -32,5 +32,24 @@ public class Array {
             }
             System.out.println(" ");
         }
+        System.out.println(" ");
+
+        int [] [] c = new int [3][3];
+        c[0][0]=2;;
+        c[0][1]=3;
+        c[0][2]=4;
+        c[1][0]=7;
+        c[1][1]=8;
+        c[1][2]=9;
+        c[2][0]=2;
+        c[2][1]=3;
+        c[2][2]=4;
+        for(int i=0;i<c.length;i++){
+            for(int j=0;j<c[i].length; j++ ){
+                System.out.print(c[i][j]+ " ");
+            }
+            System.out.println(" ");
+
+        }
     }
 }
