@@ -7,6 +7,9 @@ public class List {
         x.insert(3);
         x.insert(8);
         x.insertAtStart(32);
+        x.insertatany(1,6);
+        x.insertatany(0,2);
+        x.delete(2);
         x.show();
 
     }

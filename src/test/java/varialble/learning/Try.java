@@ -20,9 +20,18 @@ public class Try {
 
         for (int i = 1; i <= 5; i++) {
             for (int j = 5; j >= i; j--) {
-                System.out.print (j);
+                System.out.print(j);
             }
             System.out.println(" ");
         }
+        int v = 5;
+        int b = 6;
+        int c = v + b;
+        System.out.println(c);
+
+        int p [] = {1,2,3,4,5};
+        int l [] = {2,3,4,5,6};
+
+
     }
 }
