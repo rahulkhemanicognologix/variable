@@ -34,6 +34,7 @@ class B extends A{
     }
 }
 */
+/*
 class x {
     public static void name1(){
         System.out.println("This is Rahul");
@@ -58,4 +59,30 @@ class z extends y {
         result.name3();
     }
 
+}
+*/
+
+class k {
+    public static void run (){
+        System.out.println("Rahul is Running");
+    }
+}
+
+class m extends k {
+    public static void stop(){
+        System.out.println("Rahul should now stop ");
+    }
+}
+
+class p extends m {
+    public static void resume (){
+        System.out.println("Rahul can Resume");
+    }
+
+    public static void main(String[] args) {
+        p runner = new p ();
+        runner.run();
+        runner.stop();
+        runner.resume();
+    }
 }
