@@ -11,6 +11,8 @@ package varialble.learning;
      public static void main(String[] args) {
         MethodOverloading x = new MethodOverloading();
         x.hello(10, "abc");
+        MethodOverloading y = new MethodOverloading();
+        y.hello("Abc",5);
 
      }
 
