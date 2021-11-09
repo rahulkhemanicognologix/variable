@@ -8,7 +8,7 @@ package varialble.learning;
        System.out.println(" This is method 2");
    }
 
-     public static void main(String[] args) {
+      public static void main(String[] args) {
         MethodOverloading x = new MethodOverloading();
         x.hello(10, "abc");
         MethodOverloading y = new MethodOverloading();
