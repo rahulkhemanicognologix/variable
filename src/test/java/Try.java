@@ -9,7 +9,8 @@ public class Try {
           System.out.println(c);
       }
       catch (ArithmeticException e){
-          System.out.println(e );
+          System.out.println(e ); // will provide type or error and description but not line of error
+          e.printStackTrace(); // will provide description , line of error and type of error
           System.out.println("You cannot ");
       }
 
